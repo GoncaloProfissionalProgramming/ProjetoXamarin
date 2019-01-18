@@ -918,11 +918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.Android\\Projeto.Android.csproj",
+      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.Android\\Projeto.Android.csproj",
       "projectName": "Projeto.Android",
-      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.Android\\Projeto.Android.csproj",
+      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.Android\\Projeto.Android.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.Android\\obj\\",
+      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -939,8 +939,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj": {
-              "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj"
+            "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj": {
+              "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj"
             }
           }
         }

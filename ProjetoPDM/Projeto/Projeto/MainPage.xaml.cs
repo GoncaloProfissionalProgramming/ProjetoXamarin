@@ -15,19 +15,14 @@ namespace Projeto
             InitializeComponent();
         }
 
-        private void Bt_Login_Clicked(object sender, EventArgs e)
+        private async void Bt_Login_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new NavigationPage(new Login()));
         }
 
         private async void Bt_Register_Clicked(object sender, EventArgs e)
         {
-            DBConnection db = new DBConnection();
-
-            Task<string> resultTask = db.RegisterUser("a", "b", "c");
-            string result = await resultTask;
-
-            await DisplayAlert("Result", result, "OK");
+            await Navigation.PushAsync(new NavigationPage(new Register()));
         }
     }
 }

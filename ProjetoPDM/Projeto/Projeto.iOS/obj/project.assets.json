@@ -906,11 +906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.iOS\\Projeto.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.iOS\\Projeto.iOS.csproj",
       "projectName": "Projeto.iOS",
-      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.iOS\\Projeto.iOS.csproj",
+      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.iOS\\Projeto.iOS.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto.iOS\\obj\\",
+      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -927,8 +927,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj": {
-              "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj"
+            "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj": {
+              "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj"
             }
           }
         }

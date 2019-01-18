@@ -41,6 +41,28 @@ namespace Projeto.Classes
 
         }
 
+        public async Task<string> LoginUser(string username, string password)
+        {
+            HttpClient _client = new HttpClient();
+            const string Url = "https://projetopdm3.000webhostapp.com/login.php";
+
+            var values = new List<KeyValuePair<string, string>>
+            {
+                new KeyValuePair<string, string>("username", username),
+                new KeyValuePair<string, string>("password", password)
+            };
+
+            var content = new FormUrlEncodedContent(values);
+            var response = _client.PostAsync(Url, content).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                return responseContent;
+            }
+            else { return "Comunication Error"; }
+        }
+
 
     }
 }

@@ -3193,11 +3193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj",
+      "projectUniqueName": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj",
       "projectName": "Projeto",
-      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj",
+      "projectPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\Projeto.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoFinalPDM3\\ProjetoPDM\\Projeto\\Projeto\\obj\\",
+      "outputPath": "C:\\Users\\diogo\\Documents\\GitHub\\ProjetoXamarin\\ProjetoPDM\\Projeto\\Projeto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
