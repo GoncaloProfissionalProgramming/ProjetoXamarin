@@ -1,0 +1,12 @@
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\bin\Debug\netstandard2.0\Projeto.deps.json
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\bin\Debug\netstandard2.0\Projeto.dll
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\bin\Debug\netstandard2.0\Projeto.pdb
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.csprojAssemblyReference.cache
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.csproj.CoreCompileInputs.cache
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.AssemblyInfoInputs.cache
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.AssemblyInfo.cs
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.dll
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\Projeto.pdb
+C:\Users\diogo\Documents\GitHub\ProjetoFinalPDM3\ProjetoPDM\Projeto\Projeto\obj\Debug\netstandard2.0\XamlC.stamp

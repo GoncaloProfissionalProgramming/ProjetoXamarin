@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Projeto"
+             x:Class="Projeto.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+
+        <Image Source="http://my.istec.pt/wp-content/uploads/2015/02/myistec.png" />
+        <Entry x:Name="Et_Username" Placeholder="Username" />
+        <Entry x:Name="Et_Password" Placeholder="Password" IsPassword="True"/>
+        <Button x:Name="Bt_Login" Text="Login" Clicked="Bt_Login_Clicked"/>
+        <Button x:Name="Bt_Register" Text="Register" Clicked="Bt_Register_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
