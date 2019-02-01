@@ -1,0 +1,9 @@
+﻿Funcionamento da aplicação
+-funcionalidades
+-modo desenvolvimento
+
+Modelo dado 
+
+Tecnologias utilizadas 
+- conceitos utilizados
+
