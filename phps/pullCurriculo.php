@@ -2,11 +2,11 @@
 require_once "connection.php";
 $con = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
 
-
+$username=$_POST["username"];
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
-  $sql = "SELECT id FROM aluno where username=$_POST["username"]";
+  $sql = "SELECT id FROM aluno where username=$username";
   $statement = mysqli_prepare($con,$sql, "SELECT telemovel,morada,email FROM curriculo  where aluno.id=curriculo.id");
 } 
 else 
