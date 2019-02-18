@@ -1,14 +1,15 @@
 ﻿<?php
 require_once "connection.php";
+require_once "var.php";
 $con = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
 
-$username;
+
 $nome;
 $password;
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
-  $username = $_POST["username"];
+  //$username = $_POST["username"];
   echo $username;
   echo " is your username";
 } 

@@ -1,12 +1,13 @@
 ﻿<?php
 require_once "connection.php";
+require_once "var.php";
 $con = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
 
-$username=$_POST["username"];
+
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
-  $statement = mysqli_prepare($con, "SELECT telemovel,morada,email FROM curriculo  where aluno.id=curriculo.id");
+  $statement = mysqli_prepare($con, "SELECT telemovel,morada,email FROM curriculo  where aluno.username=$username");
 } 
 else 
 {
