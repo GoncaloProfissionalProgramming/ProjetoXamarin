@@ -1,0 +1,30 @@
+Lista phps necessários:
+
+Para utilizar todos estes phps, a aplicação faz um post  para a base de dados para identificar qual é o 
+aluno ou turma(na base de dados está definido que o username e o nome da turma são unique para não existir mais de um username ou turma com o mesmo nome).
+
+Menu Curriculo:
+
+php para fazer pull dos conteúdos da tabela curriculo associados ao aluno.(a aplicação faz post do username).
+php para fazer update dos conteúdos da tabela curriculo associados ao aluno (a aplicação faz post do username,telemovel,morada,email).
+
+Menu Horário:
+
+php para fazer pull dos conteúdos da tabela horário associados á turma(a aplicação faz post do nome da turma).
+
+Menu Notas:
+
+php para fazer pull dos conteúdos da tabela notas associados ao aluno.(a aplicação faz post do username).
+
+Menu Propinas:
+
+php para fazer pull dos conteúdos da tabela propinas associados ao aluno.(a aplicação faz post do username).
+
+php para fazer update á coluna pagoN(a aplicação faz post do username e pagoN).
+
+Menu Exames:
+
+php para fazer pull dos conteúdos da tabela exames associados á turma(a aplicação faz post do nome da turma).
+
+
+
