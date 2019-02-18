@@ -15,7 +15,7 @@ else
   echo "no username supplied";
 }
 
-    mysqli_stmt_bind_param($statement, "sss");
+    mysqli_stmt_bind_param($statement, "sss",$username);
     mysqli_stmt_execute($statement);
     mysqli_stmt_close($statement);
     echo "php response"
