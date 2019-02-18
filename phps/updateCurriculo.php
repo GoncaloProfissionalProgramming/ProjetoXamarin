@@ -7,7 +7,7 @@ $statement = mysqli_prepare($con, "UPDATE curriculo SET telemovel = ?, morada = 
 mysqli_stmt_bind_param($statement, "ssss",$telemovel,$morada,$email,$id);
 mysqli_stmt_execute($statement);
 mysqli_stmt_store_result($statement);
-mysqli_stmt_bind_result($statement,$telemovel,$morada,$email,$id);
+mysqli_stmt_bind_result($statement);
 $response = array();
 $response["success"] = false;
 while(mysqli_stmt_fetch($statement)){
