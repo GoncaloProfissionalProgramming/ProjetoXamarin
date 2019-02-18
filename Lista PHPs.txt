@@ -5,8 +5,9 @@ aluno ou turma(na base de dados está definido que o username e o nome da turma s
 
 Menu Curriculo:
 
-php para fazer pull dos conteúdos da tabela curriculo associados ao aluno.(a aplicação faz post do username).
-php para fazer update dos conteúdos da tabela curriculo associados ao aluno (a aplicação faz post do username,telemovel,morada,email).
+php para fazer pull dos conteúdos da tabela curriculo associados ao aluno.(a aplicação faz post do username). FEITO
+
+php para fazer update dos conteúdos da tabela curriculo associados ao aluno (a aplicação faz post do username,telemovel,morada,email). FEITO
 
 Menu Horário:
 
@@ -28,3 +29,7 @@ php para fazer pull dos conteúdos da tabela exames associados á turma(a aplicaçã
 
 
 
+REGISTER
+LOGIN
+CONNECTION
+VAR
