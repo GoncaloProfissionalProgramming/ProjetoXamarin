@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Curriculo"
+             x:Class="ProjetoFinal.CurriculoPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+          
+            <Label x:Name="lbl_Username" Text="Placeholder Username" Margin="0,30,0,0" FontAttributes="Bold" HorizontalOptions="Center" FontSize="25"  TextColor="Black"/>
+            
+            <Label Text="Nome do Aluno" Margin="0,30,0,0" FontSize="22" TextColor="Black" HorizontalOptions="Center"/>
+            <Label x:Name="lbl_Name" Text="Placeholder" Margin="0,10,0,0" FontSize="17" HorizontalOptions="Center" TextColor="Black"/>
+
+            <Label Text="E-mail" Margin="0,30,0,0" FontSize="22" TextColor="Black" HorizontalOptions="Center"/>
+            <Label x:Name="lbl_email" Text="Placeholder" Margin="0,10,0,0" FontSize="17" HorizontalOptions="Center" TextColor="Black"/>
+
+
+            <StackLayout Orientation="Horizontal" Margin="0,30,0,0" HorizontalOptions="CenterAndExpand">
+                <Label Text="Telemovel" HorizontalOptions="Center"  Margin="0,0,30,0"  FontSize="22" TextColor="Black"/>
+                <Label Text="Morada"  FontSize="22" HorizontalOptions="Center" Margin="30,0,0,0" TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,10,0,0" HorizontalOptions="CenterAndExpand">
+                <Label x:Name="lbl_Telemovel" Text="Placeholder" Margin="0,0,30,0" FontSize="17" HorizontalOptions="Center" TextColor="Black"/>
+                <Label x:Name="lbl_morada" Text="Placeholder" FontSize="17" Margin="30,0,0,0" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+     
+
+            <Button x:Name="Bt_EditPage" Text="Editar Curriculo" BackgroundColor="Red" TextColor="White" Clicked="Bt_EditPage_Clicked" Margin="0,60,0,0" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

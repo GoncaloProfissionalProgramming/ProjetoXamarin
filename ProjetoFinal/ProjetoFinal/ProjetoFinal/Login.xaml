@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="True"
+             Title="Login"
+             x:Class="ProjetoFinal.Login">
+    <ContentPage.Content>
+        <StackLayout >
+
+            <Label Text="Nome de Utilizador" Margin="0,50,0,0" TextColor="Black"/>
+            <Entry x:Name="Et_Username" Margin="0,20,0,0" />
+            <Label Text="Palavra-passe" Margin="0,30,0,0" TextColor="Black"/>
+            <Entry x:Name="Et_Password" IsPassword="True" Margin="0,20,0,0"/>
+
+            <Button x:Name="Bt_Login" Text="Login" BackgroundColor="Red" TextColor="White" Margin="0,90,0,0" Clicked="Bt_Login_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

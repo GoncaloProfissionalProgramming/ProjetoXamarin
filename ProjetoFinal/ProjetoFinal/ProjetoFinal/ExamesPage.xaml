@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Exames"
+             NavigationPage.HasBackButton="True"
+             x:Class="ProjetoFinal.ExamesPage">
+    <ContentPage.Content>
+        <Grid  BackgroundColor="White"  RowSpacing="1" ColumnSpacing="1" >
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+             
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="3*" />
+                <ColumnDefinition Width="2*" />
+           
+            </Grid.ColumnDefinitions>
+
+
+
+
+            <!-- Coluna 0-->
+            <Label Text="Disciplina" FontAttributes="Bold" TextColor="Black" Grid.Row="0" FontSize="13" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="PDM III" FontAttributes="Bold" TextColor="Black" Grid.Row="1" FontSize="12" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="Projeto" FontAttributes="Bold" TextColor="Black" Grid.Row="2" FontSize="12" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="Empreendedorismo" FontAttributes="Bold" TextColor="Black" Grid.Row="3" FontSize="12" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+         
+            <!-- Coluna 1-->
+            <Label Text="Data" FontAttributes="Bold" TextColor="Black" Grid.Row="0" FontSize="13" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr1c1"  Text="22/02/2019"  TextColor="Black" Grid.Row="1"  FontSize="11" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr2c1"  Text="25/02/2019"  TextColor="Black" Grid.Row="2"  FontSize="11" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr3c1"  Text="28/02/2019"  TextColor="Black" Grid.Row="3"  FontSize="11" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+           
+            <!-- Coluna 2-->
+            <Label Text="Horário" FontAttributes="Bold" TextColor="Black" Grid.Row="0" FontSize="13" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr1c2"  Text="08:00-13:00"  TextColor="Black" Grid.Row="1"  FontSize="11" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr2c2"  Text="10:00-12:00"  TextColor="Black" Grid.Row="2"  FontSize="11" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="lblr3c2"  Text="14:00-18:00"  TextColor="Black" Grid.Row="3"  FontSize="11" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+           
+
+       
+
+            <!-- Linhas Verticais-->
+            <BoxView Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+            <BoxView Grid.Column="1" Grid.Row="0" Grid.RowSpan="4"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+            <BoxView Grid.Column="2" Grid.Row="0" Grid.RowSpan="4"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+        
+            <!-- Linhas Horizontais-->
+            <BoxView Grid.ColumnSpan="3" Grid.Row="0"   BackgroundColor="Black" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="End"/>
+            <BoxView Grid.ColumnSpan="3" Grid.Row="1"   BackgroundColor="Black" HeightRequest="1"  HorizontalOptions="FillAndExpand" VerticalOptions="End"/>
+            <BoxView Grid.ColumnSpan="3" Grid.Row="2"   BackgroundColor="Black" HeightRequest="1"  HorizontalOptions="FillAndExpand" VerticalOptions="End"/>
+            <BoxView Grid.ColumnSpan="3" Grid.Row="3"   BackgroundColor="Black" HeightRequest="1"  HorizontalOptions="FillAndExpand" VerticalOptions="End"/>
+          
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

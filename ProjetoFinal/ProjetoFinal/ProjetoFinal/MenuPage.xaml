@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  IsPresented="True"
+                  
+                  NavigationPage.HasNavigationBar="False"
+                  xmlns:local="clr-namespace:ProjetoFinal"
+                  Title="ISTEC"
+                  x:Class="ProjetoFinal.MenuPage">
+    <MasterDetailPage.Master >
+        <ContentPage Title="Master">
+            <ContentPage.Content>
+                <StackLayout >
+
+                    <Label Text="Nome Aluno" x:Name="lblNome" FontSize="23" TextColor="Black" 
+                       HorizontalOptions="Center" FontAttributes="Bold" Margin="0,40,0,30" ></Label>
+                    <Button Text="Curriculo" BackgroundColor="Red" TextColor="White" Margin="0,80,0,0" Clicked="Curriculo_Clicked"/>
+                    <Button Text="Horarios" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Horarios_Clicked"/>
+                    <Button Text="Notas" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Notas_Clicked"/>
+                    <Button Text="Propinas" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Propinas_Clicked"/>
+                    <Button Text="Exames" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Exames_Clicked" />
+
+
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+    <MasterDetailPage.Detail >
+        <NavigationPage>
+            <x:Arguments>
+                <local:CurriculoPage/>
+            </x:Arguments>
+
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

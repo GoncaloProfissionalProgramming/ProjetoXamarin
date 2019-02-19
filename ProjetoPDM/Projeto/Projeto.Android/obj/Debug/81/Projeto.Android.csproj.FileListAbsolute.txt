@@ -1,3 +1,0 @@
-C:\Users\diogo\Documents\GitHub\ProjetoXamarin\ProjetoPDM\Projeto\Projeto.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\diogo\Documents\GitHub\ProjetoXamarin\ProjetoPDM\Projeto\Projeto.Android\obj\Debug\81\Projeto.Android.nuget.stamp
-C:\Users\diogo\Documents\GitHub\ProjetoXamarin\ProjetoPDM\Projeto\Projeto.Android\obj\Debug\81\Projeto.Android.csprojAssemblyReference.cache

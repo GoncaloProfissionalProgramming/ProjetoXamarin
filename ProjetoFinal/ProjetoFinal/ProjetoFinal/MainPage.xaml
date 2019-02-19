@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             
+             xmlns:local="clr-namespace:ProjetoFinal"
+             x:Class="ProjetoFinal.MainPage">
+
+    <StackLayout VerticalOptions="Center" >
+
+        <Image Source="http://www.istec.pt/wp-content/uploads/2016/04/logotipo_JPEG.jpg" Margin="0,0,0,80" WidthRequest="200" HeightRequest="100"  />
+        <Button x:Name="Bt_Login" Text="Login" Clicked="Bt_Login_Clicked" Margin="0,0,0,10" BackgroundColor="Red" TextColor="White"/>
+        <Button x:Name="Bt_Register" Text="Registar" Clicked="Bt_Register_Clicked" BackgroundColor="Red" TextColor="White"/>
+
+    </StackLayout>
+</ContentPage>
