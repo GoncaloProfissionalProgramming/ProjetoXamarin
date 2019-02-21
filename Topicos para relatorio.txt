@@ -7,3 +7,23 @@ Modelo dado
 Tecnologias utilizadas 
 - conceitos utilizados
 
+Funcionalidades:
+	Login
+	Registar
+	Ver e Editar Curriculo
+	Ver Notas
+	Ver horario das turmas de DDM A e B
+	Ver propinas se estão pagas ou não
+	Data de exames das turmas de DDM A e B
+
+Tecnologias:
+
+	Visual Studio Xamarin
+	00Webhost
+	Visual Studio Code para os PHPS
+
+
+
+	
+	
+
