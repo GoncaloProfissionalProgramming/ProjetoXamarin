@@ -1,9 +1,0 @@
-﻿Conta
-
-email:diogocpf31@gmail.com
-password:projetopdm
-
-Database
-
-website name:projetopdm3
-password:ddmbpdm
