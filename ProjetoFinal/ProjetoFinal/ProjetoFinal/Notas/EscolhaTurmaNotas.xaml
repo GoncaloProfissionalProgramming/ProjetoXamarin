@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Notas"
+             x:Class="ProjetoFinal.EscolhaTurmaNotas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Turma A" BackgroundColor="Red" TextColor="White"
+                    Clicked="TurmaA_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Turma B" BackgroundColor="Red" TextColor="White"
+                    Clicked="TurmaB_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

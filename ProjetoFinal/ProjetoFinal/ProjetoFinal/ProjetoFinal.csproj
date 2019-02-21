@@ -16,43 +16,43 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="CurriculoPage.xaml">
+    <EmbeddedResource Update="Curriculo\CurriculoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EditCurriculoPage.xaml">
+    <EmbeddedResource Update="Curriculo\EditCurriculoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EscolhaDisciplinaNotas.xaml">
+    <EmbeddedResource Update="Notas\EscolhaDisciplinaNotas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EscolhaHorarioPage.xaml">
+    <EmbeddedResource Update="Horario\EscolhaHorarioPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EscolhaTurmaNotas.xaml">
+    <EmbeddedResource Update="Notas\EscolhaTurmaNotas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="EscolherTurmaExames.xaml">
+    <EmbeddedResource Update="Exames\EscolherTurmaExames.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ExamesPage.xaml">
+    <EmbeddedResource Update="Exames\ExamesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HorarioPage.xaml">
+    <EmbeddedResource Update="Horario\HorarioPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Login.xaml">
+    <EmbeddedResource Update="LoginRegister\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="NotasPage.xaml">
+    <EmbeddedResource Update="Notas\NotasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PropinasPage.xaml">
+    <EmbeddedResource Update="Propinas\PropinasPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Register.xaml">
+    <EmbeddedResource Update="LoginRegister\Register.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

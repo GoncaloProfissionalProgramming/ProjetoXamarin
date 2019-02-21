@@ -1,4 +1,6 @@
-﻿using ProjetoFinal.Classes;
+﻿using Newtonsoft.Json;
+using ProjetoFinal.Classes;
+using ProjetoFinal.DBConnections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,35 +20,17 @@ namespace ProjetoFinal
             InitializeComponent();
         }
 
-
+        
         private async void Bt_Login_Clicked(object sender, EventArgs e)
         {
-            /*
-            DBConnection db = new DBConnection();
 
-            String turmaId = "2";
-
-            String morada = "Morada";
-            String telemovel = "Telemovel";
-            String email = "Email";
-            
-
-
-            Task<string> resultTask = db.PullHorario(turmaId);
-            string result = await resultTask;
-
-           
-                await DisplayAlert("Result", result, "OK");
-            
-            */
-
-           
-
+          
             await Navigation.PushModalAsync(new NavigationPage(new Login()));
         }
 
         private async void Bt_Register_Clicked(object sender, EventArgs e)
         {
+           
             await Navigation.PushModalAsync(new NavigationPage(new Register()));
         }
     }
