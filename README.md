@@ -2,5 +2,5 @@
 Aplicação de Gestão ISTEC
 
 Realizado por:
-Gonçalo Cruz Nª45141
+Gonçalo Cruz Nª45141<br>
 Diogo Silva Nª45148
