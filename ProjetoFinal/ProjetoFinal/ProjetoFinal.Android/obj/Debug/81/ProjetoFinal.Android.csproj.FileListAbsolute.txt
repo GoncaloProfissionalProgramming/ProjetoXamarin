@@ -105,6 +105,4 @@ C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\obj\De
 C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal\bin\Debug\netstandard2.0\ProjetoFinal.dll
-C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\bin\Debug\ProjetoFinal.dll.mdb
 C:\Users\Acer\source\repos\ProjetoFinal\ProjetoFinal\ProjetoFinal.Android\obj\Debug\81\linksrc\ProjetoFinal.dll.mdb

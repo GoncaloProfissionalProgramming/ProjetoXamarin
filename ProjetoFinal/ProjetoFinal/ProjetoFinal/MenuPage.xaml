@@ -14,11 +14,12 @@
 
                     <Label Text="Nome Aluno" x:Name="lblNome" FontSize="23" TextColor="Black" 
                        HorizontalOptions="Center" FontAttributes="Bold" Margin="0,40,0,30" ></Label>
-                    <Button Text="Curriculo" BackgroundColor="Red" TextColor="White" Margin="0,80,0,0" Clicked="Curriculo_Clicked"/>
+                    <Button Text="Curriculo" BackgroundColor="Red" TextColor="White" Margin="0,40,0,0" Clicked="Curriculo_Clicked"/>
                     <Button Text="Horarios" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Horarios_Clicked"/>
                     <Button Text="Notas" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Notas_Clicked"/>
                     <Button Text="Propinas" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Propinas_Clicked"/>
                     <Button Text="Exames" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Exames_Clicked" />
+                    <Button Text="Sair" BackgroundColor="Red" TextColor="White" Margin="0,25,0,0" Clicked="Sair_Clicked" />
 
 
                 </StackLayout>

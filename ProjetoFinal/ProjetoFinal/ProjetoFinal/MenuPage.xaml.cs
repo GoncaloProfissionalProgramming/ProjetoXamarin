@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoFinal.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +15,15 @@ namespace ProjetoFinal
 	{
 		public MenuPage ()
 		{
+            
 			InitializeComponent ();
 		}
+
+        protected override void OnAppearing()
+        {
+            lblNome.Text = Variaveis._aluno.Username;
+            base.OnAppearing();
+        }
 
         private void Curriculo_Clicked(object sender, EventArgs e)
         {
@@ -47,6 +55,17 @@ namespace ProjetoFinal
             this.IsPresented = false;
         }
 
-        
+        private async void Sair_Clicked(object sender, EventArgs e)
+        {
+
+
+            await Navigation.PopModalAsync();
+
+            
+           
+
+        }
+
+
     }
 }
