@@ -658,11 +658,10 @@
   },
   "libraries": {
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -697,11 +696,10 @@
       ]
     },
     "System.Net.Http/4.3.4": {
-      "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
+      "sha512": "Fj7e73NNHwof97gFPTJuq8gv6G895yxkZt14DVnZdEh4gvKl8WrksCwNjIp/JeYX/yu/qxM/iOv9ai+ZY3Fp7Q==",
       "type": "package",
       "path": "system.net.http/4.3.4",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -739,11 +737,10 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -897,20 +894,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Acer\\.nuget\\packages\\": {}
+    "C:\\Users\\Goncalo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\ProjetoFinal.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Goncalo\\Documents\\GITHUB\\ProjetoXamarin\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\ProjetoFinal.iOS.csproj",
       "projectName": "ProjetoFinal.iOS",
-      "projectPath": "C:\\Users\\Acer\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\ProjetoFinal.iOS.csproj",
-      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Goncalo\\Documents\\GITHUB\\ProjetoXamarin\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\ProjetoFinal.iOS.csproj",
+      "packagesPath": "C:\\Users\\Goncalo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Goncalo\\Documents\\GITHUB\\ProjetoXamarin\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Goncalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -923,8 +920,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Acer\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj": {
-              "projectPath": "C:\\Users\\Acer\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj"
+            "C:\\Users\\Goncalo\\Documents\\GITHUB\\ProjetoXamarin\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj": {
+              "projectPath": "C:\\Users\\Goncalo\\Documents\\GITHUB\\ProjetoXamarin\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj"
             }
           }
         }
